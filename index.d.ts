@@ -141,6 +141,7 @@ interface KeyboardAwareProps {
    * @param frames Information about the keyboard frame and animation.
    */
   onKeyboardDidChangeFrame?: (frames: Object) => void
+  bottomSpace?: number
 }
 
 interface KeyboardAwareScrollViewProps
